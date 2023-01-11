@@ -1,0 +1,12 @@
+{
+    "name": "sygnal-oauth",
+    "description": "Internal OAuth functionality.",
+    "version": "1.0.0",
+    "scripts": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sygnaltech/webflow-oauth.git"
+    },
+    "author": "Sygnal",
+    "dependencies": {}
+  }
