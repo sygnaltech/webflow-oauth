@@ -14,7 +14,9 @@
   path = "/hello"
   function = "hello"
 
-
+[[edge_functions]]
+  path = "/rewrite"
+  function = "rewrite"
 
 
 
