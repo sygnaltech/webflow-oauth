@@ -18,6 +18,9 @@
   path = "/rewrite"
   function = "rewrite"
 
+[[edge_functions]]
+  path = "/user"
+  function = "user"
 
 
 
