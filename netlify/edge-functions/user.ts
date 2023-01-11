@@ -31,7 +31,7 @@ export default async (request: Request, context: Context) => {
 //    ? `Cookie value is "${userData.email}"".`
 //    : 'Cookie has not been set. You can do so by adding "?action=set" to the URL.';
 
-    return new Response(userData, {
+    return new Response(JSON.stringify(userData), {
         headers: { "content-type": "application/json" },
         }); 
 
